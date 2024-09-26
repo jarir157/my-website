@@ -1,3 +1,4 @@
+/* إعادة ضبط الأسلوب الافتراضي */
 * {
     margin: 0;
     padding: 0;
@@ -6,16 +7,17 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
     line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
+/* رأس الصفحة */
 header {
     background-color: #4CAF50;
     color: white;
-    padding: 1rem;
     text-align: center;
+    padding: 1.5rem 0;
 }
 
 header h1 {
@@ -37,29 +39,37 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* أقسام الصفحة */
 section {
     padding: 2rem;
     text-align: center;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section#home {
-    background-color: #ffffff;
+    background-color: #f0f0f0;
 }
 
 section#about {
-    background-color: #f4f4f4;
+    background-color: #e9ecef;
 }
 
 section#contact {
-    background-color: #e2e2e2;
+    background-color: #f0f0f0;
 }
 
+/* الفوتر */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1rem;
-    position: fixed;
+    padding: 1rem 0;
+    position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: 2rem;
 }
